@@ -26,7 +26,7 @@ if(numeroDeUsuario === numeroSecreto){
         asignarTextoElemento('p','El numero secreto es mayor')
     }
     if (intentos > intentoMaximo){
-        asignarTextoElemento('p', `Lo siento, no acertaste. El número secreto era ${numeroSecreto}`);
+        asignarTextoElemento('p',`Lo siento, no acertaste. El número secreto era ${numeroSecreto}`);
       document.getElementById('reiniciar').removeAttribute('disabled');
     }
     intentos++;
